@@ -35,8 +35,8 @@ REST_FRAMEWORK = {
 }
 
 SPECTACULAR_SETTINGS = {
-    "TITLE": "Electrolyte API",
-    "DESCRIPTION": "API for Electrolyte",
+    "TITLE": "Hostel Management System",
+    "DESCRIPTION": "API for Hostel Management System",
     "VERSION": "1.0.0",
     "SERVE_INCLUDE_SCHEMA": False,
 }
@@ -108,7 +108,7 @@ WSGI_APPLICATION = "starter.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "",  # TODO Enter database name
+        "NAME": "hostel_management_system",  # TODO Enter database name
         "USER": "postgres",
         "PASSWORD": "gopal",
         "HOST": "localhost",
